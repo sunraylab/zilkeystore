@@ -2,7 +2,6 @@
 
 Very simple CLI utility to print the keys, public and private, associated to a zilliqa keystore account.
 
-
 usage: ``zilkeystore <keystore.json file>``
 
 ## Example
@@ -23,6 +22,8 @@ Notice: the keying passphrase does not appear on the screen.
 ## Install
 
 Requires `go`.
+
+![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/gomods/athens.svg)
 
 ```bash
 $ go install github.com/sunraylab/zilkeystore
